@@ -18,21 +18,21 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/923497812157681684/1104677322776387655/v3mE6rR.jpg);
+  --dplus-backdrop: url(https://www.deviantart.com/idolovag/art/D-nHFFMWkAIYoAM-817027313);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 0;
-  --dplus-accent-color-saturation: 80%;
-  --dplus-accent-color-lightness: 31%;
+  --dplus-accent-color-hue: 349;
+  --dplus-accent-color-saturation: 65%;
+  --dplus-accent-color-lightness: 29%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 0;
-  --dplus-foreground-color-hue-links: 0;
+  --dplus-foreground-color-hue-base: 327;
+  --dplus-foreground-color-hue-links: 246;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 14;
+  --dplus-background-color-hue: 267;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
@@ -40,36 +40,36 @@
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-backdrop: url(https://www.deviantart.com/idolovag/art/D-nHFFMWkAIYoAM-817027313);
   
-  --dplus-accent-color-hue: 320;
-  --dplus-accent-color-saturation: 60%;
-  --dplus-accent-color-lightness: 31%;
+  --dplus-accent-color-hue: 119;
+  --dplus-accent-color-saturation: 72%;
+  --dplus-accent-color-lightness: 48%;
   
-  --dplus-foreground-color-hue-base: 210;
-  --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-foreground-color-hue-base: 301;
+  --dplus-foreground-color-hue-links: 275;
+  --dplus-foreground-color-saturation-amount: 96;
+  --dplus-foreground-color-lightness-amount: 60;
 
-  --dplus-background-color-hue: 320;
-  --dplus-background-color-saturation-amount: 1;
-  --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-hue: 31;
+  --dplus-background-color-saturation-amount: 98;
+  --dplus-background-color-lightness-amount: 31;
+  --dplus-background-color-alpha: 1;
 }
 
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-  --dplus-font-ui: 'Amatic SC';
-  --dplus-font-body: 'Amatic SC';
-  --dplus-font-header: 'Amatic SC';
+  --dplus-font-ui: 'Boba Milky';
+  --dplus-font-body: 'Vanilla Caramel';
+  --dplus-font-header: 'Starborn';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
   --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 15%;
-  --dplus-radius-server: 15%;
+  --dplus-radius-avatar: 50%;
+  --dplus-radius-server: 50%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
@@ -78,7 +78,7 @@ Set avatar/server radius to 50% to make them circular.
    --dplus-spacing-app: 10px;
 
 /* Size of user and server icons */
---dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-chat: 60px;
 --dplus-icon-avatar-list: 32px;
 --dplus-icon-avatar-profile: 80px;
 
@@ -86,6 +86,6 @@ Set avatar/server radius to 50% to make them circular.
 --dplus-icon-server-list: 32px;
 
 /* The Home icon on the top left */
---dplus-icon-home-dark: url(https://cdn.discordapp.com/attachments/1009259884669304964/1078502429273886730/pfplatest.png);
---dplus-icon-home-light: url(https://cdn.discordapp.com/attachments/1009259884669304964/1078502429273886730/pfplatest.png);
+--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
 }
